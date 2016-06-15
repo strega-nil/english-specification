@@ -3,8 +3,9 @@ English Specification of Rust
 
 First task:
 ---
-To incorporate the RFCs into a specification
+To incorporate the assumptions of the documentation into the specification
 
 How:
-  Open PRs, an RFC at a time, in order to incorporate them into the formal
-  specification
+  Open PRs, an assumption at a time, in order to incorporate them into the
+  formal specification. These include things like "pointers to different types
+  have the same representation"
