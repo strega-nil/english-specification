@@ -2,8 +2,9 @@ Lexical Elements
 ===
 [lexical.basic]
 
-A rust input source file shall be in a format which can support all of "Unicode
-8.0.0".
+This specification describes Rust in terms of source files, encoded in UTF-8,
+using the codepoints present in "Unicdoe 8.0.0". Any other encodings supported
+by an implementation must have a mapping to this representation.
 
 > note: somehow reword this
 
